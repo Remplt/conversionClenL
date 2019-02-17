@@ -2,30 +2,30 @@ body,
 html{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
 }
 
 /***** HEADER *****/
 header{
-    width: 100%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    color: lightskyblue;
-    border-bottom: 2px solid #CCC;
-    border-radius: 25%;
+    color: #000;
+    border-bottom: 3px solid #06C;
 }
 
 header h1{
     margin: 0;
     padding: 20px 0 10px 0;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 2.5em;
 }
 
 header p{
     padding-bottom: 20px;
     font-size: 1.4em;
+    font-weight: lighter;
 }
 
 
@@ -35,11 +35,11 @@ main{
 }
 
 main h2{
-    color: lightskyblue;
+    color: #000;
     margin : 1.2em auto;
     width: 50%;
-    border-bottom: 1px solid #ccc;
-    border-radius: 20%;
+    font-weight: normal;
+    border-bottom: 2px solid #06C;
     padding: 15px;
 }
 
@@ -51,7 +51,7 @@ form{
     flex-direction: column;
     width: 40%;
     margin: auto;
-    border: 1px solid grey;
+    border: 1px solid #06C;
     border-radius: 6px;
     margin-bottom: 3em;
 }
@@ -59,12 +59,12 @@ form{
 #form-link{
     padding: 5px 0 15px 0;
     text-decoration: none;
-    color: grey;
+    color: #000;
 }
 
 #form-link:hover{
     transition: 1.4s;
-    color: black;
+    color: #000;
 }
 
 .labelForm,
@@ -74,9 +74,9 @@ form{
 }
 
 .labelForm{
-    font-size: 1.1em;
+    font-size: 1em;
     text-transform: uppercase;
-    color: lightslategray;
+    color: #000;
 }
 
 #quantite{
@@ -84,11 +84,12 @@ form{
     text-align: center;
     border-width: 0;
     border-radius: 6px;
-    color: #7bc9e3;
+    color: #000;
+    border : solid 1px rgb(130, 181, 233);
 }
 
 #button{
-    background-color:#599bb3;
+    background-color:#06C;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
     border-radius:8px;
@@ -107,30 +108,33 @@ article{
     width: 40%;
     margin: auto;
     text-align: justify;
-    border: 1px solid grey;
+    border: 1px solid #06C;
     border-radius: 6px;
     margin-bottom: 3em;
 }
 
 article h3{
-    font-size: 1.1em;
+    font-size: 1em;
     text-transform: uppercase;
-    color: lightslategray;
+    color: #000;
+    font-weight: normal;
     text-align: center;
 }
 
 article p{
     padding: 20px;
     font-size: 1em;
+    font-weight: lighter;
     line-height: 1.1em;
 }
 
 /***** FOOTER *****/
 footer{
-    border-top: 2px solid #CCC;
-    border-radius: 25%;
+    border-top: 3px solid #06C;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    color: lightskyblue;
+    color: #000;
 
 }
 
@@ -156,23 +160,26 @@ footer p{
 
 #form-contact{
     padding: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border: none;
 }
 
 #form-contact label{
     font-size: 1.1em;
     text-transform: uppercase;
-    color: lightslategray;
+    color: #000;
     text-align: center;
     padding: 5px;
 }
 
 #form-contact input,
 #form-contact textarea{
-    color: #7bc9e3;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
     border-radius: 4px;
     border-width: 0;
+    border : solid 1px rgb(130, 181, 233);
 }
 
 #form-contact #button{

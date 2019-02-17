@@ -14,10 +14,10 @@
     <?php if(empty($_POST)) { ?> 
         <form id='form-contact' action="contact.php" method="post">
            <label for="nom">Nom :</label>
-           <input type="text" name="nom">
+           <input type="text" name="nom" placeholder="Saisissez votre nom...">
    
            <label for="prenom">Prenom :</label>
-           <input type="text" name="prenom">
+           <input type="text" name="prenom" placeholder="Saisissez votre prénom...">
    
            <label for="message">Votre proposition :</label>
            <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message..."></textarea>
@@ -32,13 +32,13 @@
             <p> Veuillez renseigner tous les champs </p>
             <form id='form-contact' action="contact.php" method="post">
                 <label for="nom">Nom :</label>
-                <input type="text" name="nom">
+                <input type="text" name="nom" placeholder="Saisissez votre nom...">
         
                 <label for="prenom">Prenom :</label>
-                <input type="text" name="prenom">
+                <input type="text" name="prenom" placeholder="Saisissez votre prénom...">
         
                 <label for="message">Votre proposition :</label>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message..."></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Saisissez votre message..."></textarea>
         
                 <button type="submit" id="button">Envoyer votre proposition</button>
             </form> 
