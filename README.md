@@ -14,6 +14,7 @@ Pour le moment, aucune informations n'est stockées, les demandes ne peuvent don
 - Ajouter la conversion d'arrivée (le rendu) en fonction du choix de l'utilisateur
 - Améliorer le formulaire
 - Traiter le formulaire
+- ~~Faire un nouveau design~~
 
 ## Prérequis
 - Lancer le projet à partir d'un serveur (local ou non)
