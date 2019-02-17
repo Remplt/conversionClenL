@@ -4,6 +4,8 @@ Il s'agit d'un site qui m'a permis de revoir une partie de ce que je connaissais
 On peut retrouver dans le site une partie avec une conversion de cl en l ainsi qu'une page formulaire qui permet de soumettre de nouvelle conversion à ajouter.<br>
 Pour le moment, aucune informations n'est stockées, les demandes ne peuvent donc être traitées.
 
+![alt text](img/indexConversion.png "Index picture")
+
 ## Langages utilisés
 - HTML
 - CSS
