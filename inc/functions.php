@@ -11,19 +11,17 @@ if(empty($_POST)){
 if(!empty($_POST)){
     $quantityInput = $_POST['quantityInput'];
     $quantityOutput = $_POST['quantityOutput'];
-    var_dump($quantityOutput);
     $inputUser = $_POST['quantite'];
 
     foreach($conversion as $key => $tableValue){
         if($quantityInput == $key){
             foreach($tableValue as $output => $value){
-                if($quantityOutput = $output){
+                if($quantityOutput == $output){
                     $quantityConvert = $inputUser * $value;
                 }
             }
         }
     }
-    var_dump($quantityOutput);
 }
 
 

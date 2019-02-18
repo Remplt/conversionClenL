@@ -19,7 +19,7 @@ $conversion = [
         "Hectolitres" => "1",
         "Kilolitres" => "0.1"
     ],
-    "Decalitres" => [
+    "Décalitres" => [
         "Millilitres" => "10000",
         "Centilitres" => "1000",
         "Decilitres" => "100",
@@ -28,7 +28,7 @@ $conversion = [
         "Hectolitres" => "0.1",
         "Kilolitres" => "0.01"
     ],
-    "Litre" => [        
+    "Litres" => [        
         "Millilitres" => "1000",
         "Centilitres" => "100",
         "Decilitres" => "10",

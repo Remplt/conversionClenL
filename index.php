@@ -22,7 +22,7 @@
                     <label for="">Saisir ici votre quantité</label>
                 </div>
                 <div class="inputForm">
-                <input type="number" name="quantite" class="quantite">
+                <input type="number" name="quantite" class="quantite" value="1">
                 </div>
 
                 <label class="labelForm" for="quantityOutput">Choisissez l'unité d'arrivée</label>
