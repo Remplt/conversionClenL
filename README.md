@@ -12,8 +12,8 @@ Pour le moment, aucune informations n'est stockées, les demandes ne peuvent don
 - PHP
 
 ## A faire
-- Ajouter un choix qui permet de choisir la conversion de base (le point de départ)
-- Ajouter la conversion d'arrivée (le rendu) en fonction du choix de l'utilisateur
+- ~~Ajouter un choix qui permet de choisir la conversion de base (le point de départ)~~
+- ~~Ajouter la conversion d'arrivée (le rendu) en fonction du choix de l'utilisateur~~
 - Améliorer le formulaire
 - Traiter le formulaire
 - ~~Faire un nouveau design~~
