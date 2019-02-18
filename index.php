@@ -7,12 +7,35 @@
         <h2>Le mélangeur exceptionnel</h2>
         <form action="index.php" method="post">
             <?php if(empty($_POST)):?>
+                <label class="labelForm" for="quantityInput">Choisissez l'unité de base</label>
+                <select name="quantityInput" class="quantite">
+                    <option>Millilitres</option>
+                    <option>Centilitres</option>
+                    <option>Decilitres</option>
+                    <option>Litres</option>
+                    <option>Decalitres</option>
+                    <option>Hectolitres</option>
+                    <option>Kilolitres</option>
+                </select>
+
                 <div class="labelForm">
-                    <label for="">Saisir ici votre quantité (en cl)</label>
+                    <label for="">Saisir ici votre quantité</label>
                 </div>
                 <div class="inputForm">
-                <input type="number" name="quantite" id="quantite">
+                <input type="number" name="quantite" class="quantite">
                 </div>
+
+                <label class="labelForm" for="quantityOutput">Choisissez l'unité d'arrivée</label>
+                <select name="quantityOutput" class="quantite">
+                    <option>Millilitres</option>
+                    <option>Centilitres</option>
+                    <option>Decilitres</option>
+                    <option>Litres</option>
+                    <option>Decalitres</option>
+                    <option>Hectolitres</option>
+                    <option>Kilolitres</option>
+                </select>
+
                 <div class="buttonForm">
                     <button type="submit" id="button">Soumettre</button>
                 </div>
