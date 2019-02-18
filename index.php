@@ -13,7 +13,7 @@
                     <option>Centilitres</option>
                     <option>Decilitres</option>
                     <option>Litres</option>
-                    <option>Decalitres</option>
+                    <option>Décalitres</option>
                     <option>Hectolitres</option>
                     <option>Kilolitres</option>
                 </select>
@@ -31,7 +31,7 @@
                     <option>Centilitres</option>
                     <option>Decilitres</option>
                     <option>Litres</option>
-                    <option>Decalitres</option>
+                    <option>Décalitres</option>
                     <option>Hectolitres</option>
                     <option>Kilolitres</option>
                 </select>
@@ -46,11 +46,12 @@
                         echo "<a href='index.php' id='form-link'> Faire une autre conversion</a>";
                     } else {
                 // Resultat de la conversion ici
-                echo "<p>$quantiteEnCl CL équivaut à $quantiteEnLitre L.</p>";
+                // Recuperer la clé du tableau pour afficher centilitres to litres
+                echo "<p>$inputUser $quantityInput équivaut à $quantityConvert $quantityOutput.</p>";
                 echo "<a href='index.php' id='form-link'> Faire une autre conversion</a>";
                     }
             endif;
-            ?>
+           ?>
         </form>
         <article>
             <h3>Le litre</h3>
