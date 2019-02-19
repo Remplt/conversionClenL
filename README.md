@@ -1,8 +1,8 @@
-# Site de conversion de centilitres en litres
+# Site qui permet de convertir une quantité en une autre
 
 Il s'agit d'un site qui m'a permis de revoir une partie de ce que je connaissais et ce que j'ai appris en environ une semaine en PHP. <br>
-On peut retrouver dans le site une partie avec une conversion de cl en l ainsi qu'une page formulaire qui permet de soumettre de nouvelle conversion à ajouter.<br>
-Pour le moment, aucune informations n'est stockées, les demandes ne peuvent donc être traitées.
+On peut retrouver dans le site une page qui permet de faire les conversions ainsi qu'une page formulaire qui permet de soumettre de nouvelle conversion à ajouter.<br>
+Pour le moment, aucune information n'est stockée, les demandes ne peuvent donc être traitées.
 
 ![alt text](img/indexConversion.png "Index picture")
 
